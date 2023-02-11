@@ -26,6 +26,9 @@
     "format": "prettier --write \"**/*.+(js|ts|jsx|tsx|json|css|md)\""
   },
   "eslintConfig": {
+    "rules": {
+      "jsx-a11y/aria-role": "off"
+    },
     "extends": [
       "react-app",
       "react-app/jest"
